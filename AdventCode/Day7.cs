@@ -146,9 +146,4 @@ namespace AdventCode
             return Prerequisites.Count() == 0;
         }        
     }
-
-    public class Worker
-    {
-        public char? AssignedStep = null;
-    }
 }

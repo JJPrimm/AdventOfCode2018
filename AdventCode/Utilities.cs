@@ -20,6 +20,12 @@ namespace AdventCode
                 .ToArray();
         }
 
+        public static int[] ReadSpaceSeparatedIntArray(int day)
+        {
+            return File.ReadAllText($@"..\..\input\Input{day}.txt").Split(' ').Select(s => Convert.ToInt32(s)).ToArray();
+            //return File.ReadAllText($@"..\..\input\Test8.txt").Split(' ').Select(s => Convert.ToInt32(s)).ToArray();
+        }
+
         public static Dictionary<char, int> CharToInt()
         {
             return new Dictionary<char, int>

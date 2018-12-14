@@ -16,7 +16,12 @@ namespace AdventCode
 
         public static string[] ReadStringArray(int day)
         {
-            return File.ReadAllLines($@"..\..\input\Input{day}.txt")
+            return ReadStringArray($"Input{day}.txt");
+        }
+
+        public static string[] ReadStringArray(string file)
+        {
+            return File.ReadAllLines($@"..\..\input\{file}")
                 .ToArray();
         }
 

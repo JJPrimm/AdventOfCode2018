@@ -13,7 +13,7 @@ namespace AdventCode
             //Day3.Problem1();
             //Day3.Problem2();
             //Day6.Problem1();
-            Day6.Problem2();
+            //Day6.Problem2();
             //Day7.Problem1();
             //Day7.Problem2();
             //Day8.Problem1();
@@ -22,6 +22,8 @@ namespace AdventCode
             //Day11.Problem1();
             //Day11.Problem2();
             //Day13.Problems();
+            //Day14.Problem1();
+            Day14.Problem2();
 
             Console.ReadKey();
         }
